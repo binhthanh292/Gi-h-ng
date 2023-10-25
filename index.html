@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <div class="header">
+            <input type="checkbox" onchange="fnCheckAll(this)">
+            <div class="header_delete">
+                <strong>Delete</strong> 
+            </div>
+            <div>
+                <strong>Product</strong>
+            </div>
+            <div>
+                <strong>Price</strong>
+            </div>
+            <div>
+                <strong>Quanity</strong>
+            </div>
+            <div>
+                <strong>Total</strong>
+            </div>       
+                      
+
+        </div> 
+
+        <div>
+            <div class="body">
+                <input type="checkbox" class="pink">
+                <div class="body_delete " >
+                    <p class="delete" onclick="DeleteItem (this)" >Delete</p>
+                </div>
+                <div>
+                    <p>Item1</p>
+                </div>
+                <div class="body_price">
+                    <p>10.5$</p>
+                </div>
+                <div class="body_quantity">
+                    <input class="num" type="number" min="1" >
+                </div>
+                <div class="body_total">
+                    <p>0$</p>
+                </div>       
+                          
+            </div> 
+            <div class="body">
+                <input type="checkbox">
+                <div class="body_delete">
+                    <p class="delete">Delete</p>
+                </div>
+                <div>
+                    <p>Item2</p>
+                </div>
+                <div class="body_price">
+                    <p>10.5$</p>
+                </div>
+                <div class="body_quantity">
+                    <input class="num" type="number" min="1"  >
+                </div>
+                <div class="body_total">
+                    <p>0$</p>
+                </div>       
+                          
+            </div>
+            <div class="body">
+                <input type="checkbox">
+                <div class="body_delete">
+                    <p class="delete">Delete</p>
+                </div>
+                <div>
+                    <p>Item3</p>
+                </div>
+                <div class="body_price">
+                    <p>10.5$</p>
+                </div>
+                <div class="body_quantity">
+                    <input  class="num" type="number" min="1"  >
+                </div>
+                <div class="body_total">
+                    <p>0$</p>
+                </div>       
+                          
+            </div> 
+    
+
+        </div>
+
+      
+        <div class="footer">
+            <input type="checkbox" onchange="fnCheckAll">
+            <div class="header_delete">
+                <strong>Delete</strong>
+            </div>
+            <div>
+                <strong></strong>
+            </div>
+            <div>
+                <strong></strong>
+            </div>
+            <div>
+                <strong></strong>
+            </div>
+            <div>
+                <strong>Total</strong>
+            </div>       
+            <div class="footer_money" id="tui" >
+                <p id="sum" onchange="fnUpdateAmount_Total (this)" >0$</p>
+            </div>             
+
+        </div> 
+
+
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

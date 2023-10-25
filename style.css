@@ -1,0 +1,127 @@
+html {
+    box-sizing:;
+} 
+
+input {
+    margin-right: 20px;
+    width: 50px;
+    height: 20px;
+}
+
+input[type="checkbox"]{
+    accent-color: pink;
+}
+
+div {
+    display: inline-block;
+}
+
+.header {
+    background-color: rgb(201, 201, 201);
+    
+} 
+
+div.header {
+    padding: 10px; 
+    padding-right: 200px;
+    border-bottom: 2px solid black ;
+    width: 100%;
+}
+
+.header div {
+    padding-right: 100px;
+} 
+
+/* body */
+
+.body {
+    padding-left: 10px;
+     
+} 
+
+div.body {
+    /* padding: 5px;  */
+    padding-right: 205px;
+    border-bottom: 2px solid black ;
+    width: 100%;
+}
+
+div.body:hover {
+    background-color: rgb(238, 209, 209);
+    
+}
+
+.body div {
+    padding-right: 90px;
+}
+
+.body_delete p {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: gray;
+} 
+
+.body_delete p:hover {
+    background-color: hotpink;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.body_price {
+    padding-left: 15px;
+}
+
+.body_quantity {
+    padding-left: 15px;
+    height: 30px;
+    
+    
+}
+
+div.body_quantity {
+    padding-right: 10px; !important
+    
+}
+
+.body_quantity p {
+    border: 1px solid black;
+    padding-left: 50px;
+    padding-right: 10px;
+    
+}
+
+.body_total {
+    padding-left: 70px;
+} 
+
+.body_quantity input {
+    width: 70px;
+}
+
+/* foot */
+
+.footer {
+    background-color: rgb(201, 201, 201);
+    
+} 
+
+div.footer {
+    padding: 10px; 
+    padding-right: 200px;
+    border-bottom: 2px solid black ;
+    width: 100%;
+}
+
+.footer div {
+    padding-right: 100px;
+} 
+
+.footer_money {
+    padding-left: 40px;
+} 
+
+.header_delete:hover {
+    color: indianred;
+    cursor: pointer;
+}
